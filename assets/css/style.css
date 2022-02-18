@@ -1,0 +1,200 @@
+/* :root {
+    --headerFont: 'Abril Fatface', cursive;
+    --bodyFont: 'Archivo Narrow', sans-serif;
+    --primarycolor: rgb(241, 238, 202);
+    --secondarycolor: rgb(228, 151, 52);
+    --boldcolor: rgb(43, 72, 126);
+} */
+
+/* Universal Selectors */
+* {
+    background-color: #F8F7F7;
+    font-family: 'Gafata', sans-serif;
+}
+
+h2,
+h5 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background: none;
+}
+
+html,
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    background: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 25px;
+}
+
+/* Navigation Selectors */
+nav {
+    text-align: end;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #9AA4BC;
+    line-height: 5rem;
+    height: 5rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #9AA4BC;;
+    color: #F8F7F7;
+    margin-right: 5%;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+nav a:hover {
+    height: 100%;
+    color: #B5B8D2;
+}
+
+nav a:visited {
+    color: none;
+}
+
+/* Profile Image Selectors */
+#profile-image {
+    max-width: 100%;
+    max-height: 700px;
+    background: #6E869F;
+    overflow: hidden;
+    text-align: center;
+}
+
+#background-img {
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    min-height: 100%;
+    opacity: 0.4;
+}
+
+#name {
+    font-size: 55px;
+    text-align: center;
+    color: #B5B8D2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    background: none;
+}
+
+.code {
+    color: #6E869F;
+    font-weight: bold;
+    background: none;
+}
+
+/* About Me Selectors */
+#about-section {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Contact Me Selectors */
+footer {
+    margin: 0 auto;
+}
+
+#contact-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-icon,
+.contact-icon:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-icon:hover {
+    color: #6E869F;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Nav Bar Selectors */
+    nav {
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 1rem;
+        border-top: 1px solid #F8F7F7;
+        border-bottom: 1px solid #F8F7F7;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #email,
+    #phone,
+    #linkedin,
+    #github {
+        flex-basis: 100%;
+    }
+
+    /* Profile Image Selectors */
+    #profile-image {
+        max-height: 1100px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #profile-photo,
+    #name {
+        top: 0%;
+        left: 0%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        position: relative;
+        max-width: 600px;
+    }
+
+    #name {
+        font-size: 2rem;
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: center;
+    }
+    
+
+    /* Contact Me Selectors */
+    .contact-div {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
