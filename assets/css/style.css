@@ -49,10 +49,10 @@ main {
 
 p {
     display: flex;
-    margin-top: 4rem;
+    margin-top: 1rem;
     background: none;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     font-size: 25px;
 }
 
@@ -106,6 +106,15 @@ nav a:visited {
     justify-content: center;
 }
 
+.exp-icons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#icons-pics {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .code {
     color: #6E869F;
