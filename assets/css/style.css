@@ -193,11 +193,15 @@ footer {
         flex-wrap: wrap;
     }
 
+    .exp-icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     #email,
     #phone,
     #linkedin,
-    #github,
-    #icons-pics
+    #github
     {
         flex-basis: 100%;
     }
