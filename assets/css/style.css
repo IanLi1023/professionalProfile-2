@@ -20,18 +20,14 @@
 }
 
 h2 {
-    display: flex;
     text-align: center;
-    font-size: 35px;
-    padding-bottom: 2rem;
+    font-size: 40px;
     background: none;
 }
 
 h5 {
     text-align: center;
     font-size: 35px;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
     background: none;
 }
 
@@ -130,7 +126,124 @@ nav a:visited {
     overflow: hidden;
     margin: 0 auto;
 }
+/* Project Selectors */
+#work {
+    color: #F8F7F7;
+}
 
+#work-section {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #6E869F;
+    padding-bottom: 2rem;
+}
+
+#work-samples {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.work-image {
+    background: none;
+    z-index: 1;
+    border: #B8BEC3 3px solid;
+}
+
+.work-image:hover {
+    background-color: #6E869F;
+    opacity: 0.4;
+}
+
+.large-image {
+    width: 1000px;
+    height: auto;
+}
+
+.small-image {
+    width: 480px;
+    height: auto;
+    margin: 1rem;
+}
+
+.work-flexbox,
+.work-text,
+.work-title,
+.repo-link,
+.deploy-anchor {
+    background: none;
+}
+
+.work-text a,
+.work-text a:visited {
+    background: none;
+    text-decoration: none;
+    color: #F8F7F7;
+}
+
+.work-text a:hover,
+.deploy-anchor:hover {
+    text-decoration: underline;
+    color: #6E869F;
+} 
+
+/* Project Flex Box */
+#flex-one {
+    order: 1;
+    flex-basis: 100%;
+}
+
+#pass-text,
+#grocery-text,
+#word-text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    background-color: #B5B8D2;
+}
+
+#grocery-text,
+#word-text {
+    width: 480px;
+}
+
+#pass-text {
+    width: 1000px;
+    order: 2;
+    flex-basis: 100%;
+}
+
+#grocery-text {
+    order: 5;
+}
+
+#word-text {
+    order: 6;
+}
+
+#flex-two {
+    order: 3;
+}
+
+#flex-three {
+    order: 4;
+}
+.small-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.large-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
 /* Contact Me Selectors */
 footer {
     margin: 0 auto;
@@ -230,7 +343,13 @@ footer {
     padding-right: 10px;
 }
 
-h5 {
+h2, h5 {
+    text-align: center;
     font-size: 30px;
+}
+/* Project Selectors */
+.large-image,
+.small-image {
+    width: 100%;
 }
 }
