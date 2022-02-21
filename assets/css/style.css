@@ -185,37 +185,54 @@ nav a:visited {
     color: var(--lightest-grey);
 } 
 
+.btn {
+    background-color: rgb(243, 194, 120);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    padding: 12px;
+    border-radius: 4px; 
+}
+
+.btn:hover {
+    background-color: var(--light-grey);
+    opacity: 0.4;
+}
+
 /* Project Flex Box */
 #flex-one {
     order: 1;
     flex-basis: 100%;
 }
 
-#pass-text,
-#grocery-text,
-#word-text {
+#dinner-text,
+#weather-text,
+#note-text {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0 auto;
     background-color: var(--light-grey);
 }
 
-#grocery-text,
-#word-text {
+#weather-text,
+#note-text {
     width: 480px;
 }
 
-#pass-text {
+#dinner-text {
     width: 1000px;
     order: 2;
     flex-basis: 100%;
 }
 
-#grocery-text {
+#weather-text {
     order: 5;
 }
 
-#word-text {
+#note-text {
     order: 6;
 }
 
