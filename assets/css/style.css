@@ -1,14 +1,14 @@
-/* :root {
-    --headerFont: 'Abril Fatface', cursive;
-    --bodyFont: 'Archivo Narrow', sans-serif;
-    --primarycolor: rgb(241, 238, 202);
-    --secondarycolor: rgb(228, 151, 52);
-    --boldcolor: rgb(43, 72, 126);
-} */
+:root {
+    --white:#F8F7F7;
+    --grey:#828894;
+    --light-grey: #acaeb8;
+    --lightest-grey: #4a4c4e;
+    --border: #646769;
+}
 
 /* Universal Selectors */
 * {
-    background-color: #F8F7F7;
+    background-color:var(--white);
     font-family: 'Gafata', sans-serif;
 }
 #about-section {
@@ -57,7 +57,7 @@ nav {
     text-align: end;
     align-items: flex-end;
     width: 100%;
-    background-color: #9AA4BC;
+    background-color: var(--grey);
     line-height: 5rem;
     height: 5rem;
 }
@@ -65,8 +65,8 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 25px;
-    background-color: #9AA4BC;
-    color: #F8F7F7;
+    background-color: var(--grey);
+    color: var(--white);
     margin-right: 5%;
     vertical-align: middle;
     z-index: 1;
@@ -74,7 +74,7 @@ nav a {
 
 nav a:hover {
     height: 100%;
-    color: #B5B8D2;
+    color: var(--light-grey);
 }
 
 nav a:visited {
@@ -85,7 +85,7 @@ nav a:visited {
 #profile-image {
     max-width: 100%;
     max-height: 835px;
-    background:  #9AA4BC;
+    background: var(--grey);
     overflow: hidden;
     text-align: center;
 }
@@ -93,7 +93,6 @@ nav a:visited {
 #background-img {
     width: 100%;
     height: 85%;
-    background-color:  #B5B8D2; ;
 }
 
 #professsional-profile-image {
@@ -112,11 +111,6 @@ nav a:visited {
     padding-right: 30px;
 }
 
-.code {
-    color: #6E869F;
-    font-weight: bold;
-    background: none;
-}
 
 /* About Me */
 #about-section {
@@ -128,14 +122,14 @@ nav a:visited {
 }
 /* Project Selectors */
 #work {
-    color: #F8F7F7;
+    color: var(--white);
 }
 
 #work-section {
     max-width: 100%;
     overflow: hidden;
     margin: 0 auto;
-    background-color: #6E869F;
+    background-color: var(--grey);
     padding-bottom: 2rem;
 }
 
@@ -151,12 +145,11 @@ nav a:visited {
 
 .work-image {
     background: none;
-    z-index: 1;
-    border: #B8BEC3 3px solid;
+    border: var(--border)  3px solid;
 }
 
 .work-image:hover {
-    background-color: #6E869F;
+    background-color: var(--light-grey);
     opacity: 0.4;
 }
 
@@ -183,13 +176,13 @@ nav a:visited {
 .work-text a:visited {
     background: none;
     text-decoration: none;
-    color: #F8F7F7;
+    color:var(--white);
 }
 
 .work-text a:hover,
 .deploy-anchor:hover {
     text-decoration: underline;
-    color: #6E869F;
+    color: var(--lightest-grey);
 } 
 
 /* Project Flex Box */
@@ -204,7 +197,7 @@ nav a:visited {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0 auto;
-    background-color: #B5B8D2;
+    background-color: var(--light-grey);
 }
 
 #grocery-text,
@@ -267,7 +260,7 @@ footer {
 }
 
 .contact-icon:hover {
-    color: #6E869F;
+    color: var(--light-grey);
 }
 
 
@@ -296,8 +289,8 @@ footer {
 
     nav a {
         font-size: 1rem;
-        border-top: 1px solid #F8F7F7;
-        border-bottom: 1px solid #F8F7F7;
+        border-top: 1px solid var(--white);
+        border-bottom: 1px solid var(--white);
     }
 
     .contact-section{
