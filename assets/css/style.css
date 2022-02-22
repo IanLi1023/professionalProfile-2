@@ -20,14 +20,14 @@
 }
 
 h2 {
-    text-align: center;
     font-size: 40px;
+    text-align: center;
     background: none;
 }
 
 h5 {
-    text-align: center;
     font-size: 35px;
+    text-align: center;
     background: none;
 }
 
@@ -216,15 +216,24 @@ nav a:visited {
     background-color: var(--light-grey);
 }
 
+#dinner-text {
+    width: 1000px;
+    order: 2;
+    flex-basis: 100%;
+}
+
 #weather-text,
 #note-text {
     width: 480px;
 }
 
-#dinner-text {
-    width: 1000px;
-    order: 2;
-    flex-basis: 100%;
+
+#flex-two {
+    order: 3;
+}
+
+#flex-three {
+    order: 4;
 }
 
 #weather-text {
@@ -235,13 +244,6 @@ nav a:visited {
     order: 6;
 }
 
-#flex-two {
-    order: 3;
-}
-
-#flex-three {
-    order: 4;
-}
 
 .small-image {
     width: 100%;
@@ -284,7 +286,6 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    /* Nav Bar Selectors */
     #about-section {
         display: flex;
         flex-direction: column;
@@ -330,7 +331,6 @@ footer {
         flex-basis: 100%;
     }
 
-    /* Profile Image Selectors */
     #professsional-profile-image {
         display: flex;
         max-height: auto;
@@ -348,7 +348,6 @@ footer {
         line-height: 1.5rem;
     }
 
-    /* Contact Me Selectors */
     .contact-div {
         padding-left: 10px;
         padding-right: 10px;
@@ -360,7 +359,6 @@ footer {
         font-size: 30px;
     }
 
-    /* Project Selectors */
     .large-image {
         width: 40%
     }
