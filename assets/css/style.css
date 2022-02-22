@@ -53,8 +53,7 @@ p {
 }
 
 nav {
-    text-align: end;
-    align-items: flex-end;
+    text-align: center;
     width: 100%;
     background-color: var(--grey);
     line-height: 5rem;
@@ -190,7 +189,7 @@ nav a:visited {
     display: inline-block;
     text-decoration: none;
     border: 1px solid grey;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
     padding: 12px;
     border-radius: 4px;
     font-size: 25px;
