@@ -1,14 +1,16 @@
 :root {
-    --white:#F8F7F7;
-    --grey:#828894;
+    --white: #F8F7F7;
+    --grey: #828894;
     --light-grey: #acaeb8;
     --lightest-grey: #4a4c4e;
     --border: #646769;
 }
+
 * {
-    background-color:var(--white);
+    background-color: var(--white);
     font-family: 'Gafata', sans-serif;
 }
+
 #about-section {
     display: flex;
     flex-direction: column;
@@ -102,6 +104,7 @@ nav a:visited {
     text-align: center;
     justify-content: center;
 }
+
 #icons-pics {
     padding-left: 30px;
     padding-right: 30px;
@@ -139,7 +142,7 @@ nav a:visited {
 
 .work-image {
     background: none;
-    border: var(--border)  3px solid;
+    border: var(--border) 3px solid;
 }
 
 .work-image:hover {
@@ -162,23 +165,23 @@ nav a:visited {
 .work-text,
 .work-title,
 .repo-link,
-.all-tag
-{
+.all-tag {
     background: none;
+    font-size: 24px;
 }
 
 .work-text a,
 .work-text a:visited {
     background: none;
     text-decoration: none;
-    color:var(--white);
+    color: var(--white);
 }
 
 .work-text a:hover,
 .deploy-anchor:hover {
     text-decoration: underline;
     color: var(--lightest-grey);
-} 
+}
 
 .btn {
     background-color: rgb(243, 194, 120);
@@ -191,7 +194,7 @@ nav a:visited {
     padding: 12px;
     border-radius: 4px;
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn:hover {
@@ -239,6 +242,7 @@ nav a:visited {
 #flex-three {
     order: 4;
 }
+
 .small-image {
     width: 100%;
     height: auto;
@@ -250,6 +254,7 @@ nav a:visited {
     max-width: 600px;
     height: auto;
 }
+
 footer {
     margin: 0 auto;
 }
@@ -278,9 +283,10 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
     /* Nav Bar Selectors */
     #about-section {
-        display:flex;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -290,13 +296,14 @@ footer {
     #content {
         display: flex;
         justify-content: center;
-        text-align:center;
+        text-align: center;
     }
+
     nav {
         max-width: 100%;
         flex-direction: column;
         text-align: center;
-        
+
     }
 
     nav a {
@@ -305,13 +312,13 @@ footer {
         border-bottom: 1px solid var(--white);
     }
 
-    .contact-section{
+    .contact-section {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    .exp-icons{
+    .exp-icons {
         display: flex;
         flex-wrap: wrap;
     }
@@ -319,14 +326,12 @@ footer {
     #email,
     #phone,
     #linkedin,
-    #github
-    {
+    #github {
         flex-basis: 100%;
     }
 
     /* Profile Image Selectors */
-    #professsional-profile-image
-    {
+    #professsional-profile-image {
         display: flex;
         max-height: auto;
         max-width: 100%;
@@ -342,22 +347,25 @@ footer {
         padding-right: 10%;
         line-height: 1.5rem;
     }
-  /* Contact Me Selectors */
-  .contact-div {
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-h2, h5 {
-    text-align: center;
-    font-size: 30px;
-}
-/* Project Selectors */
-.large-image {
-    width: 40%
-}
+    /* Contact Me Selectors */
+    .contact-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.small-image {
-    width: 80%;
-}
+    h2,
+    h5 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /* Project Selectors */
+    .large-image {
+        width: 40%
+    }
+
+    .small-image {
+        width: 80%;
+    }
 }
