@@ -117,6 +117,12 @@ nav a:visited {
     margin: 0 auto;
 }
 
+.about-exp {
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
 #work {
     color: var(--white);
 }
@@ -342,9 +348,9 @@ footer {
         font-size: 16px;
         max-height: auto;
         max-width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
         line-height: 1.5rem;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .contact-div {
